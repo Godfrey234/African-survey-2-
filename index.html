@@ -179,20 +179,28 @@
           <textarea name="open_feedback" rows="5" placeholder="Your feedback here..."></textarea>
         </div>
 
-        <!-- Submit -->
-        <div class="form-section">
-
-            <!-- Form connected to Formspree -->
-      <form action="https://formspree.io/f/https://formspree.io/f/xnngzbyl" method="POST">
-        <form
-    
-          <button type="submit">Submit Survey</button>
+       <form
+  action="https://formspree.io/f/xnngzbyl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
         </div>
       </form>
     </main>
   </div>
 </body>
 </html>
+
 
 
 
